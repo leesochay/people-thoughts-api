@@ -1,12 +1,11 @@
-// Define Mongoose
-const mongoose = require('mongoose');
+const { Schema, model } = require('mongoose');
 
-// Create a new instance of the Mongoose schema to define shape of each document
-const userSchema = new mongoose.Schema({
+const userSchema = new Schema(
+    {
     username:{type:String, unique:true, required:true, trim:true},
     // email validation using match and regular expression
     email:{type:String, required:true, unique:true, trim:true,
-        match:[/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/, 'Please enter a valid email address']},
+           match:[/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/, 'Please enter a valid email address']},
     thoughts:[{
             type: Schema.Types.ObjectId,
             ref: "Thought",
@@ -14,7 +13,18 @@ const userSchema = new mongoose.Schema({
     friends:[{
         type: Schema.Types.ObjectId,
         ref: "User",
-    },],
+        },],
+    },
+    {
+        toJSON: {
+          virtuals: true,
+        },
+        id: false,
+      }
+  );
+
+  userSchema.virtual('friendCount').get(function () {
+    return this.friends.length;
   });
 
   const User = model('user', userSchema);
