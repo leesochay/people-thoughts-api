@@ -42,7 +42,7 @@ module.exports = {
         if (!user) {
           return res.status(404).json({ message: 'No such user exists' });
         }
-          res.json(user);
+        res.json({ message: 'User removed from database' });
       } catch (err) {
         res.status(500).json(err);
       }
@@ -60,7 +60,7 @@ module.exports = {
             .status(404)
             .json({ message: 'No user found with that ID' });
         }
-        res.json(user);
+        res.json({ message: 'User has been updated.' });
       } catch (err) {
         res.status(500).json(err);
       }
