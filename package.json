@@ -1,19 +1,19 @@
 {
-    "name": "people-thoughts-api",
-    "version": "1.0.0",
-    "description": "NoSQL Challenge 18",
-    "main": "index.js",
-    "license": "MIT",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js"
-    },
-    "repository": {
-    "type": "git",
-    "url": "git+https://github.com/leesochay/people-thoughts-api"
-    },
-    "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^7.0.2"
-    }
+  "name": "people-thoughts-api",
+  "version": "1.0.0",
+  "description": "NoSQL Challenge 18",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/leesochay/people-thoughts-api"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.2.2"
+  }
 }
