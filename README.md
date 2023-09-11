@@ -30,7 +30,12 @@ Get All Users
 Create a User
 ![Create a User Screenshot](screenshots/create-user.png)
 
-![Dashboard Screenshot](screenshots/Dashboard.png)
+Get a User by Id
+![Get a User by Id Screenshot](screenshots/get-user-by-id.png)
+
+Get a User by Id
+![Get a User by Id Screenshot](screenshots/get-user-by-id.png)
+
 
 ## License
 MIT License
