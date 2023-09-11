@@ -39,6 +39,20 @@ Update a User\
 Add a Friend\
 ![Add a Friend Screenshot](screenshots/add-friend.png)
 
+Get All Thoughts\
+![Get All Thoughts Screenshot](screenshots/get-all-thoughts.png)
+
+Create a Thought\
+![Create a Thought Screenshot](screenshots/create-a-thought.png)
+
+Get a Thought by Id\
+![Get a Thought by Id Screenshot](screenshots/get-thought-by-id.png)
+
+Update a Thought\
+![Update a Thought Screenshot](screenshots/update-a-thought.png)
+
+Create a Reaction\
+![Create a Reaction Screenshot](screenshots/create-reaction.png)
 
 ## License
 MIT License
