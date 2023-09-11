@@ -24,9 +24,11 @@ The application is invoked by using the npm start command from the command-line 
 
 Demo Video: [LeeSochay People Thoughts API Demo](https://drive.google.com/)
 
+Get All Users
 ![Get All Users Screenshot](screenshots/get-all-users.png)
 
-![Blogpost Screenshot](screenshots/Blogpost.png)
+Create a User
+![Create a User Screenshot](screenshots/create-user.png)
 
 ![Dashboard Screenshot](screenshots/Dashboard.png)
 
