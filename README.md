@@ -2,7 +2,7 @@
 
  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-## Table of Contents (Optional)
+## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -23,6 +23,12 @@ Utilizes npm packages Express and Mongoose
 The application is invoked by using the npm start command from the command-line interface.
 
 Demo Video: [LeeSochay People Thoughts API Demo](https://drive.google.com/)
+
+![Get All Users Screenshot](screenshots/get-all-users.png)
+
+![Blogpost Screenshot](screenshots/Blogpost.png)
+
+![Dashboard Screenshot](screenshots/Dashboard.png)
 
 ## License
 MIT License
