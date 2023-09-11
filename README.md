@@ -1,4 +1,4 @@
-# people-thoughts-api
+# People Thoughts API
 
  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
@@ -6,48 +6,23 @@
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
   - [License](#license)
   - [Questions](#questions)
 
 ## Description
-In GitHub, it is very important to have a README file for the projects that you are creating.  This can show the professionalism and seriousness of the developer and give them as edge when  pportunities arise. A professional README document should include a description of the project, how to install the application, how to use the application, a listing of the collaborators and third-party assets that contributed to the project, any tests for the application, licensing information, and finally contact information for questions and comments from users.
+This challenge is called the NoSQL Challenge as it is accessing and managing a non-SQL database. In this case, the database is MongoDB. The advantages of using MongoDB is the speed in which it can work with large amounts of data, as well as the flexibility if offers due to having unstructured data.
 
-It is advantageous to have an application that can generate a README file by using a command-line application so more time can be used toward development. This is the week 9 challenge.
-Utilizing Nodejs, the inquirer npm package, and module esxports, the challenge is to create a command-line applcation to generate a README file in markdown language that can be easily be used in GitHub projects.
+This project delves into the development of an API designed around a social network application. Functionality includes creating users, finding specific users, updating user data, and deleting users. User functionality includes creating and removing friends; posting, updating and removing thoughts; and lastly posting and removing reactions to the posted thoughts.
 
-The acceptance criteria consists of following the Professional README Guide [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) from  Full-Stack Blog and creating sections titled Description, Table of Contents, Installation, Usage, License (including general license information and license badge), Contributing, Tests, and Questions.
-
-This is the first challenge utilizing Node.js, packaged javascript code (Inquirer.js), and module-exports to develop an application.
+This project utilizes Express for routing, a MongoDB database, and the Mongoose ODM (Object Data Modeling).
 
 ## Installation
-Appication:
-Node.js
-[Version 16.18.0-x64](https://nodejs.org/dist/v16.18.0/node-v16.18.0-x64.msi)
-
-Inquirer.js
-Version 8.2.4 (Installed using "npm i inquirer@8.2.4" command via Git Bash).
-
-Submission:
-Screencastify via Chrome extension.
+Utilizes npm packages Express and Mongoose
 
 ## Usage
-The application is invoked by using the index.js command from the command-line interface (Terminal in VS Code in this instance).
+The application is invoked by using the npm start command from the command-line interface.
 
-Demo Video: [LeeSochay README Generator Demo](https://drive.google.com/file/d/1ZaF-R2hBEm3zPQOSBimPFCPOUXoHVS3k/view?)
-
-## Contributing
-Hat tip goes to
-
-For Inquirer.js : [Inquirer.js documentation.](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
-
-Information on License Badges: [Shields IO](https://shields.io/category/license) and [Markdown License Badges for your Project: lukas-h GitHub Repository](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
-
-Information on Open Source Licsenses: [Choose a License Website](https://choosealicense.com/licenses/)
-
-## Tests
-None
+Demo Video: [LeeSochay People Thoughts API Demo](https://drive.google.com/)
 
 ## License
 MIT License
