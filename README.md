@@ -22,7 +22,7 @@ Utilizes npm packages Express and Mongoose
 ## Usage
 The application is invoked by using the npm start command from the command-line interface.
 
-Demo Video: [LeeSochay People Thoughts API Demo](https://drive.google.com/)
+Demo Video: [LeeSochay People Thoughts API Demo](https://drive.google.com/file/d/1NVcY7j43z1C7HFH-SiuxkPL6zQ6ElMue/view)
 
 Get All Users
 ![Get All Users Screenshot](screenshots/get-all-users.png)
@@ -33,8 +33,11 @@ Create a User
 Get a User by Id
 ![Get a User by Id Screenshot](screenshots/get-user-by-id.png)
 
-Get a User by Id
-![Get a User by Id Screenshot](screenshots/get-user-by-id.png)
+Update a User
+![Get a User by Id Screenshot](screenshots/update-user.png)
+
+Update a User
+![Add a Friend](screenshots/add-friend.png)
 
 
 ## License
